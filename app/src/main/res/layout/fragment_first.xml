@@ -19,21 +19,30 @@
 
     <Switch
         android:id="@+id/Home_page_switch"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="129dp"
+        android:layout_height="29dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
-        android:text="Switch"
+        android:text="Dark Mode"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/Home_page_Search_Text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="174dp"
+        android:layout_height="62dp"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="100dp"
-        android:text="TextView"
+        android:src="@android:drawable/button_onoff_indicator_off"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/home_page_logo" />
+        tools:layout_editor_absoluteY="275dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="174dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="32dp"
+        android:src="@android:drawable/button_onoff_indicator_off"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="377dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
